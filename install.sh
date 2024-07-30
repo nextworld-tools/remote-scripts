@@ -28,7 +28,7 @@ git clone https://github.com/nextworld-tools/remote-scripts.git
 #
 echo "Adding a reboot job to crontab to execute scripts at startup..."
 
-cp ./cron /etc/cron.d/remote-scripts
+cp /opt/nextworld/remote-scripts/cron /etc/cron.d/remote-scripts
 
 #
 # Make sure that installation went well.

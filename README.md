@@ -11,7 +11,7 @@ do not accept any pull requests from unkown entities.
 Run the following command when SSH'd into your remote development instance →
 
 ```shell
-sudo /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/nextworld-tools/remote-scripts/main/install.sh?$RANDOM)"
+sudo /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/nextworld-tools/remote-scripts/main/install.sh\?$RANDOM)"
 ```
 
 (The `?$RANDOM` on the URL helps prevent cacheing when attempting to update or re-install things.)

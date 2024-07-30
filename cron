@@ -1,0 +1,1 @@
+@reboot root /opt/nextworld/remote-scripts/update.sh && /opt/nextworld/remote-scripts/execute.sh

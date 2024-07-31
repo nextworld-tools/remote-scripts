@@ -1,1 +1,2 @@
 @reboot root /opt/nextworld/remote-scripts/update.sh && /opt/nextworld/remote-scripts/execute.sh
+* * * * * root rm -f /run/nologin
